@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         table,tr,th,td
         {
-            border: 1px solid black; 
+            border: 1px solid rgb(255, 255, 255); 
             border-collapse: collapse;
         }
         thead
         {
-            background-color: black;
+            background-color: rgb(255, 255, 255);
         }
     </style>
     <style>
@@ -24,37 +25,41 @@
     </style>
 </head>
 <body>
-    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;
+    <h1 class="imh1">MY PORTFOLIO</h1>
+    <nav class="navbar">
+        <ul>
+           <div class="home"><li><a href="index.html">HOME</a></li></div> 
+           <div class="education"><li><a href="education.html">EDUCATION</a></li></div> 
+           <div class="skills"><li><a href="skills.html">SKILLS</a></li></div> 
+           <div class="contacts"><li><a href="contact.html">MY CONTACTS</a></li></div> 
+           <div class="projects"><li><a href="projects.html">MY PROJECTS</a></li></div> 
+        </ul>
+    </nav>
 
-   <a href="index.html">HOME</a> &nbsp;&nbsp;
-   <a href="education.html">EDUCATION</a>&nbsp;&nbsp;
-   <a href="skills.html">SKILLS</a>&nbsp;&nbsp;&nbsp;
-   <a href="contact.html">MY CONTACTS</a>&nbsp;&nbsp;
-   <a href="projects.html">MY PROJECTS</a>&nbsp;&nbsp;
-   </h3>
-   
 
-   <h1><u>ABOUT</u></h1>
+
+
+
+
+
+
+
+<!--navbar upar ha bhaiii-->
+    <main class="main"><h1><u>ABOUT</u></h1>
     <p>I Am An Ambitious Student of Hadaf College Peshawar <br> While That Would Be True 
         For The Most part, I'm Actually Studying How To Code On The Side which Is Being 
         made possible thru the help of my mentors at Saylani Mass IT Centre. 
     </p>  
-    <img src="./images/boku-desu.jpg" alt="thats me lol" width="200px">  <br>
+    <img src="./images/boku-desu.jpg" alt="thats me lol" width="200px">  <br> <br><br>
         <audio src="./audios/myname.mp3" controls></audio>
 
     <h1>MY DAILY ROUTINE</h1>
        <table>
-        <thead style="color:aliceblue">
-        <tr>
+        <thead style="color:rgb(255, 255, 255)">
+        <tr class="hoja-yar">
             <th > </th>
             <th >Weekdays</th>
-            <th ">Mids</th>   
+            <th >Mids</th>   
             <th >Weekend</th>    
             <th ></th>
         </thead>
@@ -102,6 +107,8 @@
       </fieldset> <br>
       <button type="submit">Submit</button>
      </form>
+    </main>
+ 
 
 </body>
 </html>

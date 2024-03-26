@@ -1,0 +1,63 @@
+.imh1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(0, 153, 255);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar li{
+    text-align: center;
+    float: left;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color: rgb(8, 0, 63);
+}
+.home{
+    padding-left: 350px;
+}
+.education{
+    padding-left: 80px;
+}
+.skill{
+    padding-left: 50px;
+}
+.contact{
+    padding-left: 50px;
+}
+.projects{
+    padding-left: 50px;
+}
+.main h1,p,table,tr,td,form,legend,input{
+    color:white;
+}
+.hoja-yar th{
+    color: rgb(0, 0, 0);
+}
+.normalh {
+     color: white;
+     text-align: left;
+}
+.wht a{
+    color: white;
+    text-decoration: none;
+}
+.tbloc {
+    color: white;
+    
+}
+.contform {
+    color: white;
+}
