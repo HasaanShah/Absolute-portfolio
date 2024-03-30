@@ -1,3 +1,21 @@
+table,tr,th,td
+{
+    border: 1px solid rgb(255, 255, 255); 
+    border-collapse: collapse;
+}
+thead
+{
+    background-color: rgb(255, 255, 255);
+}
+.form-container {
+    background-color: aqua;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+
 .imh1{
     text-align: center;
     color: white;
