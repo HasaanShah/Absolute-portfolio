@@ -14,8 +14,6 @@ thead
 }
 
 
-
-
 .imh1{
     text-align: center;
     color: white;
@@ -25,7 +23,7 @@ body{
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(0, 153, 255);
+    background-color: rgb(255, 136, 0);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -41,7 +39,7 @@ body{
     padding: 15px;
 }
 .navbar a:hover{
-    background-color: rgb(8, 0, 63);
+    background-color: rgb(224, 0, 0);
 }
 .home{
     padding-left: 350px;
